@@ -1,0 +1,31 @@
+name: bareksa
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  google_fonts: 3.0.1
+  flutter_svg: 1.1.6
+  carousel_slider: 4.1.1
+  intl: 0.17.0
+  fl_chart: 0.55.2
+  visibility_detector: 0.3.3
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/images/logo.svg
+  uses-material-design: true
+
